@@ -1,5 +1,6 @@
 import "reflect-metadata";
 import { injectable, container } from 'tsyringe';
+import './style.css';
 
 interface TodoItem {
   name: string;
